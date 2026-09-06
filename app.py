@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 import hashlib
+import os
 import re
 
 from database import (
@@ -9,8 +10,10 @@ from database import (
     record_exists
 )
 
+
+
 app = Flask(__name__)
-app.secret_key = "codealpha-data-guard-secret-key"
+app.secret_key = os.environ.get("SECRET_KEY", "development-secret-key")
 
 
 def normalize_data(name, email, phone):
