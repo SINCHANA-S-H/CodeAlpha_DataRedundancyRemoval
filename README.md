@@ -47,3 +47,17 @@ CodeAlpha_DataRedundancyRemoval/
 └── static/
     └── css/
         └── style.css
+
+        ## 📸 Application Preview
+
+### Dashboard
+
+The DataGuard Engine dashboard provides a real-time view of unique records, SHA-256 hashing, database status, and verified data.
+
+![DataGuard Dashboard](static/screenshots/dashboard.jpeg)
+
+### Duplicate Detection
+
+The system automatically detects duplicate records and prevents them from being added to the database.
+
+![Duplicate Detection](static/screenshots/duplicate-detection.jpeg)
