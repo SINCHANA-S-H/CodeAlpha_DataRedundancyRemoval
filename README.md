@@ -2,6 +2,13 @@
 
 A Flask-based web application that detects and prevents duplicate records using SHA-256 hashing and SQLite database validation.
 
+
+## 🚀 Live Demo
+
+🔗 **[Try DataGuard Live](https://dataguard-dataredundancyremoval.onrender.com)**
+
+
+
 ## 📌 Project Overview
 
 The Data Redundancy Removal System is designed to identify duplicate data records before they are stored in the database.
@@ -36,7 +43,7 @@ The system provides a simple web-based dashboard for adding records, viewing ver
 ## 📂 Project Structure
 
 ```text
-CodeAlpha_DataRedundancyRemoval/
+DataGuard-DataRedundancyRemoval/
 │
 ├── app.py
 ├── database.py
@@ -72,13 +79,13 @@ The system automatically detects duplicate records and prevents them from being 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/SINCHANA-S-H/CodeAlpha_DataRedundancyRemoval.git
+git clone https://github.com/SINCHANA-S-H/DataGuard-DataRedundancyRemoval.git
 ```
 
 ### 2. Navigate to the project directory
 
 ```bash
-cd CodeAlpha_DataRedundancyRemoval
+cd DataGuard-DataRedundancyRemoval
 ```
 
 ### 3. Create a virtual environment
